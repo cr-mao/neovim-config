@@ -3,8 +3,7 @@ vim.g.tokyonight_style = "storm" -- day / night
 -- 半透明
 -- vim.g.tokyonight_transparent = true
 -- vim.g.tokyonight_transparent_sidebar = true
---local colorscheme = "tokyonight"
-local colorscheme = "gruvbox"
+local colorscheme = "tokyonight"
 -- tokyonight
 -- OceanicNext
 -- gruvbox

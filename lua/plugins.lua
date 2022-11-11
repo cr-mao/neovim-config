@@ -45,6 +45,13 @@ packer.startup({
     -- project 启动页项目列表
     use("ahmedkhalf/project.nvim")
 
+     -- treesitter  代码高亮
+    use({
+      "nvim-treesitter/nvim-treesitter",
+      run = ":TSUpdate",
+    })
+
+
     --------------------- colorschemes --------------------
     -- tokyonight
     use("folke/tokyonight.nvim")

@@ -21,3 +21,5 @@ require("plugin-config.telescope")
 require("plugin-config.dashboard")
 -- 启动页项目列表
 require("plugin-config.project")
+-- 语法高亮
+require("plugin-config.nvim-treesitter") 
