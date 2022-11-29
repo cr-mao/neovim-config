@@ -1,3 +1,5 @@
+
+require("utils.global")
 -- 基础设置
 require("basic")
 -- packer 插件管理 
@@ -23,3 +25,11 @@ require("plugin-config.dashboard")
 require("plugin-config.project")
 -- 语法高亮
 require("plugin-config.nvim-treesitter") 
+
+
+
+-- 内置LSP (新增)
+require("lsp.setup")
+require("lsp.cmp")
+require("lsp.ui")
+
